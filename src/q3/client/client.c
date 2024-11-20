@@ -71,8 +71,6 @@ int main(int argc, char **argv) {
         printf("Sent %zu/%zu bytes\n", progress, total_length);
     }
 
-    puts(pi_content);
-
     close(sock_fd);
 
     return EXIT_SUCCESS;
